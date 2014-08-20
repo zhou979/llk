@@ -172,7 +172,7 @@ public class NewClass extends JFrame {
 					// f点从Y轴负方向接近l点
 					for (int i = FY - 1; i > LY; i--)
 						if (!(Buttons[FX][i].isVisible())) {
-							if ((isOneTurnigLinked(i, FY, LX, LY)))
+							if ((isOneTurnigLinked(FX, i, LX, LY)))
 								return true;
 						} else {
 							break;
@@ -190,7 +190,7 @@ public class NewClass extends JFrame {
 					// F点从X轴负方向接近L点
 					for (int i = FX - 1; i > LX; i++)
 						if (!(Buttons[i][FY].isVisible())) {
-							if ((isOneTurnigLinked(FX, i, LX, LY)))
+							if ((isOneTurnigLinked(i, FX, LX, LY)))
 								return true;
 						} else {
 							break;
