@@ -24,6 +24,7 @@ import javax.swing.JFrame;
  */
 
 public class NewClass extends JFrame {
+
 	JButton[][] Buttons;
 	JButton StartButton, ChangeButton;
 	Panel GamePanel;
